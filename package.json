@@ -1,0 +1,26 @@
+{
+  "name": "capacity-planner-backend",
+  "version": "1.0.0",
+  "description": "Backend-for-capacity-planner",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node" : "14.x"
+  },
+  "author": "Sai Chakri D",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20"
+  }
+}
