@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json({ message: "welcome" });
+  res.json({ message: "Welcome! Csynergy API by Sai Chakri" });
 });
 
 app.use("/projects", project);
