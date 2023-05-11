@@ -26,5 +26,5 @@ app.use("/task", taskManage);
 app.use("/calc", calculation);
 
 app.listen(process.env.PORT || 3001, () => {
-  console.log(`Welcome to Csynergy API by saichakri! Server is started at ${process.env.PORT || 3001}`);
+  console.log(`Welcome to Csynergy API by saichakri! Server runs at port ${process.env.PORT || 3001}`);
 });
